@@ -1,18 +1,35 @@
-# Scout Vite Template
+# Calculadora PREVENT - TribeMD
 
-This is a [Vite](https://vite.dev) project bootstrapped with React + TypeScript and configured with TailwindCSS v4 and ShadCN UI.
+Calculadora oficial das equações PREVENT do American Heart Association para predição de risco cardiovascular. Este projeto é construído com [Vite](https://vite.dev), React + TypeScript e configurado com TailwindCSS v4 e ShadCN UI.
 
-## Getting Started
+## Começando
 
-First, run the development server:
+Primeiro, execute o servidor de desenvolvimento:
 
 ```bash
 bun dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+Abra [http://localhost:5173](http://localhost:5173) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `src/App.tsx`. The page auto-updates as you edit the file.
+Você pode começar a editar a página modificando `src/App.tsx`. A página atualiza automaticamente conforme você edita o arquivo.
+
+## Sobre a Calculadora PREVENT
+
+A Calculadora PREVENT implementa as equações oficiais do American Heart Association para predição de risco cardiovascular, incluindo:
+
+- **Risco CVD Total**: Doença cardiovascular total em 10 e 30 anos
+- **Risco ASCVD**: Doença cardiovascular aterosclerótica em 10 e 30 anos  
+- **Risco de Insuficiência Cardíaca**: Predição em 10 e 30 anos
+- **Dois Modelos**: Modelo base e modelo completo com biomarcadores adicionais
+
+### Recursos Principais
+
+- Interface responsiva e acessível
+- Validação de dados em tempo real
+- Visualizações interativas dos resultados
+- Exportação de relatórios em PDF
+- Conformidade com diretrizes AHA/SBC
 
 ## Project Configuration
 
